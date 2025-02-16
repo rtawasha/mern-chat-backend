@@ -16,8 +16,7 @@ const server = http.createServer(app);
 // initialize socket.io 
 const io = socketio(server, {
   cors: {
-    origin: ["https://mern-chat-backend-1-ayvm.onrender.com",                 
-            "https://warm-souffle-dfc0c4.netlify.app/"],   
+    origin: ["http://localhost:5173", "https://warm-souffle-dfc0c4.netlify.app/"],  
     allowedHeaders: ["my-custom-header"],
     methods: ["GET", "POST"],
     credentials: true,  //! allow cookies, tokens, etc.
