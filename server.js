@@ -40,10 +40,9 @@ socketIo(io);
 app.get("/", (req, res) => {
   res.json({
     name: "backend",
-    project: "MERN Chat App using Socket.IO",
-    message: "Welcome to MERN Chat Application",
-    developedBy: "MasynTech",
-    website: "www.masynctech.com",
+    project: "MERN Chit-CHAT App using Socket.IO",
+    message: "Welcome to MERN Chit-CHAT Application",
+    developedBy: "rtawasha",
   });
 });
 app.use("/api/users", userRouter);       
